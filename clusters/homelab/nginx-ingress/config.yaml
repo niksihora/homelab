@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   dependsOn:
-    - name: nginx-ingress-base
+    - name: nginx-base
   interval: 10m
   path: ./infra/nginx-ingress/config
   prune: true
