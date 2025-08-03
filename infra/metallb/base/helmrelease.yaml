@@ -22,3 +22,5 @@ spec:
       logLevel: info
     speaker:
       logLevel: info
+    webhook:
+      enabled: true
