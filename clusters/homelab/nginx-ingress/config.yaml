@@ -7,7 +7,7 @@ spec:
   dependsOn:
     - name: nginx-base
   interval: 10m
-  path: ./infra/nginx-ingress/config
+  path: ./infra/nginx-ingress/base
   prune: true
   sourceRef:
     kind: GitRepository
